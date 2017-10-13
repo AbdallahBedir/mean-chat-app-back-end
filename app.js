@@ -7,7 +7,6 @@ var bodyParser  = require('body-parser');
 var cors        = require("cors");
 var app         = require("express")();
 var server      = http.createServer(app).listen(3000);
-//var io          = require("socket.io")(server);
 const rooms     = require('./routes/rooms');
 const chat      = require("./routes/chat");
 
