@@ -4,7 +4,7 @@ const router      = express.Router();
 const http       = require("http");
 const Chat        = require('../models/Chat');
 const room        = require("../models/Room");
-var server        = http.createServer(app).listen(4000);
+var server        = http.createServer(app).listen(process.env.PORT || 4000);
 var io            = require("socket.io")(server);
 var Rooms ;
 
