@@ -1,0 +1,28 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "simple chat app using angular2 and socket.io",
+  "engines": {
+    "node": "7.10.0",
+    "npm": "4.2.0"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bower": "^1.8.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.0",
+    "mongoose": "^4.11.13",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "AbdallahBedir",
+  "license": "ISC"
+}
