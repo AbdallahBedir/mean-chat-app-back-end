@@ -4,8 +4,6 @@ const router      = express.Router();
 const http       = require("http");
 const Chat        = require('../models/Chat');
 const room        = require("../models/Room");
-//var server        = http.createServer(app).listen('0.0.0.0' || 4000);
-
 
 // POST a new chat message
 router.post('/', (req, res, next) => {

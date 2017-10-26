@@ -8,7 +8,6 @@ var cors        = require("cors");
 var app         = express();
 var server        = http.createServer(app).listen(process.env.PORT || 3000);
 var io            = require("socket.io")(server);
-
 const rooms     = require('./routes/rooms');
 const chat      = require("./routes/chat");
 const room        = require("./models/Room");
